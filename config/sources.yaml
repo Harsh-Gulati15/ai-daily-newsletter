@@ -1,0 +1,11 @@
+reddit:
+  - MachineLearning
+  - LocalLLaMA
+  - ArtificialIntelligence
+  - OpenAI
+
+rss:
+  - https://openai.com/blog/rss
+  - https://www.anthropic.com/rss
+  - https://deepmind.google/blog/rss.xml
+  - https://huggingface.co/blog/feed.xml

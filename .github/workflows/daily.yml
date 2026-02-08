@@ -1,0 +1,12 @@
+name: Daily AI Newsletter
+
+on:
+  schedule:
+    - cron: "30 1 * * *"  # 7:00 AM IST
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: pip install -r requirements.txt
+      - run: python main.py

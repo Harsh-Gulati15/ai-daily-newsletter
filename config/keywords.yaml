@@ -1,0 +1,13 @@
+include:
+  - launch
+  - release
+  - model
+  - agent
+  - paper
+  - benchmark
+  - open source
+
+exclude:
+  - hiring
+  - job
+  - opinion
